@@ -1,10 +1,16 @@
 ﻿namespace KebabMenu
 {
-    internal class Program
+    internal class Sklad
     {
-        static void Main(string[] args)
+        public void Surov()
         {
-            Console.WriteLine("Hello, World!");
+            int maso = 120;
+            int zelenina = 120;
+            int boxy = 10;
+            Console.WriteLine(maso + "g");
+            Console.WriteLine(zelenina + "g");
+            Console.WriteLine(boxy + "g");
+                
         }
     }
 }
