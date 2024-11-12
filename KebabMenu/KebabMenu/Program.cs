@@ -9,10 +9,18 @@ namespace KebabMenu
             Console.WriteLine("Dobrý den pro sklad surovin stiskněte S pro Menu kebabu M");
             string skl = Console.ReadLine();
             Sklad sklad1 = new Sklad();
+            Dopln dopln1 = new Dopln();
             if (skl == "S")
             {
+                Console.WriteLine("Pro doplnění stiskněte D");
                 sklad1.Surov();
+                string dpl = Console.ReadLine();
+                if (dpl == "D")
+                {
+                    dopln1.Dopln();
+                }
             }
+            
 
         }
     }
