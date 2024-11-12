@@ -17,8 +17,12 @@ namespace KebabMenu
                 string dpl = Console.ReadLine();
                 if (dpl == "D")
                 {
-                    dopln1.Dopln();
+                    dopln1.Dopln1();
                 }
+            }
+            if (skl == "M")
+            {
+                Console.WriteLine("S");
             }
             
 

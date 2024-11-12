@@ -4,11 +4,16 @@ namespace KebabMenu
 {
     internal class Dopln
     {
-        public void Dopln()
+        public void Dopln1()
         {
-            Sklad maso1 = new Sklad();
-            int valuemaso = maso1.maso;
-            Console.WriteLine(valuemaso);
+            
+            Console.WriteLine("Kolik chcete doplnit?");
+            string B = Console.ReadLine();
+            int value1 = int.Parse(B);
+            Sklad.maso =+ value1;
+            Console.WriteLine(Sklad.maso);
+            
+
                 
         }
     }
